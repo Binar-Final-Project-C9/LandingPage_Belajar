@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "image": "/Images/john-doe-image.png",
+    "description": "I've got something happy, after meet this platform",
+    "rating": 4,
+    "job": "Product Designer"
+  },
+  {
+    "id": 2,
+    "name": "Jane",
+    "image": "/Images/jane.jpg",
+    "description": "I've got something happy, after meet this platform",
+    "rating": 5,
+    "job": "Web Developer"
+  },
+  {
+    "id": 3,
+    "name": "Peter",
+    "image": "/Images/peter.jpg",
+    "description": "I've got something happy, after meet this platform",
+    "rating": 5,
+    "job": "Mobile Developer"
+  }
+]

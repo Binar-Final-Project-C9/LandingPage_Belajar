@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,9 +11,8 @@ function Arrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
-        background: "#078739",
-        margin: "10px",
+        display: "flex",
+        margin: "0",
       }}
       onClick={onClick}
     />
@@ -46,58 +45,58 @@ function Product() {
     ],
   };
   return (
-    <div className="product-section-wrapper" id="course">
-      <div className="product-section-top">
-        <h1 className="primary-heading">
-          <span className="highlight-green">Topik</span>{" "}
-          <span className="">Pembelajaran</span>{" "}
-          <span className="highlight-green">Populer</span>{" "}
+    <div className='product-section-wrapper' id='course'>
+      <div className='product-section-top'>
+        <h1 className='primary-heading'>
+          <span className='highlight-green'>Topik</span>{" "}
+          <span className=''>Pembelajaran</span>{" "}
+          <span className='highlight-green'>Populer</span>{" "}
         </h1>
-        <p className="primary-text">
+        <p className='primary-text'>
           Jelajahi topik pembelajaran populer yang paling diminati dari berbagai
           bidang.
         </p>
       </div>
-      <div className="container">
+      <div className='container'>
         <Slider {...settings}>
-          <div className="card shadow-xl">
-            <img src="/Images/webdev.jpg" alt="" />
-            <div className="card-body">
+          <div className='card shadow-xl'>
+            <img src='/Images/webdev.jpg' alt='' />
+            <div className='card-body'>
               <h3>Web Development</h3>
               <p></p>
             </div>
           </div>
-          <div className="card">
-            <img src="/Images/mobiledev.jpg" alt="" />
-            <div className="card-body">
+          <div className='card'>
+            <img src='/Images/mobiledev.jpg' alt='' />
+            <div className='card-body'>
               <h3>Mobile Development</h3>
               <p></p>
             </div>
           </div>
-          <div className="card">
-            <img src="/Images/uxindo.jpg" alt="" />
-            <div className="card-body">
+          <div className='card'>
+            <img src='/Images/uxindo.jpg' alt='' />
+            <div className='card-body'>
               <h3>UI/UX Design</h3>
               <p></p>
             </div>
           </div>
-          <div className="card">
-            <img src="/Images/data.jpg" alt="" />
-            <div className="card-body">
+          <div className='card'>
+            <img src='/Images/data.jpg' alt='' />
+            <div className='card-body'>
               <h3>Data Science</h3>
               <p></p>
             </div>
           </div>
-          <div className="card">
-            <img src="/Images/machine.jpg" alt="" />
-            <div className="card-body">
+          <div className='card'>
+            <img src='/Images/machine.jpg' alt='' />
+            <div className='card-body'>
               <h3>Machine Learning</h3>
               <p></p>
             </div>
           </div>
-          <div className="card">
-            <img src="/Images/iot.jpg" alt="" />
-            <div className="card-body">
+          <div className='card'>
+            <img src='/Images/iot.jpg' alt='' />
+            <div className='card-body'>
               <h3>Internet of Things</h3>
               <p></p>
             </div>

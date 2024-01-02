@@ -8,8 +8,23 @@
   justify-content: center;
   column-gap: 10px;
 }
-.slick-slide.slick-active {
-  /* margin-right: 15px; */
+.slick-list {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.slick-next,
+.slick-prev {
+  width: 52px;
+  height: 52px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 55px;
+  color: #fff;
+  background-color: #078739;
+  border-radius: 100%;
+  line-height: 1.1;
+  opacity: 0.5;
 }
 .card {
   border-radius: 5px;

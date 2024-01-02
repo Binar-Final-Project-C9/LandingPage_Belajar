@@ -1,26 +1,24 @@
-import React from "react";
-import { BsFillPlayCircleFill } from "react-icons/bs";
+import React from 'react';
+import { BsFillPlayCircleFill } from 'react-icons/bs';
 
 const About = () => {
   return (
-    <div className="about-section-container" id="about">
-      <div className="video-box">
+    <div className="lg:flex justify-center items-center gap-16" id="about">
+      <div className="lg:w-1/2">
         <iframe
-          width="560"
-          height="315"
+          className="flex items-center justify-center w-full h-96"
           src="https://www.youtube.com/embed/rRSK7n4oeew?si=f_wc7RjqChdpkXOf"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+          allowfullscreen></iframe>
       </div>
       <div className="about-section-text-container">
-        <h1 className="primary-heading" style={{ whiteSpace: "pre-line" }}>
-          <span className="">Cara</span>{" "}
+        <h1 className="primary-heading" style={{ whiteSpace: 'pre-line' }}>
+          <span className="">Cara</span>{' '}
           <span className="highlight-green">Asyik</span> <br />
-          <span className="">Untuk</span>{" "}
-          <span className="highlight-green">Belajar</span>{" "}
+          <span className="">Untuk</span>{' '}
+          <span className="highlight-green">Belajar</span>{' '}
         </h1>
         <p className="primary-text">
           Video materi yang dikemas secara menarik sehingga pembelajaran mudah

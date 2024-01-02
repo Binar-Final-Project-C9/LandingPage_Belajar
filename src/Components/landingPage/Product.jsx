@@ -11,9 +11,8 @@ function Arrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
-        background: "#078739",
-        margin: "10px",
+        display: "flex",
+        margin: "0",
       }}
       onClick={onClick}
     />
@@ -25,7 +24,7 @@ function Product() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,

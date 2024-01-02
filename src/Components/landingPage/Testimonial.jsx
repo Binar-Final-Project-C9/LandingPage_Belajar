@@ -1,25 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import testimonials from "../../utils/testimonials.json";
 import StarIcon from "@mui/icons-material/Star";
-
-function Arrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{
-        ...style,
-        display: "block",
-        background: "#078739",
-        margin: "10px",
-      }}
-      onClick={onClick}
-    />
-  );
-}
 
 function Star({ value }) {
   let stars = [];
@@ -72,7 +54,7 @@ function Testimonials() {
         {testimonials.map((testimonial) => (
           <div key={testimonial.id}>
             <div className="flex items-center justify-center w-full">
-              <div className="max-w-lg py-4 shadow-lg px-8 bg-white rounded-lg mt-16">
+              <div className="max-w-lg py-4 shadow-xl px-8 bg-white rounded-lg mt-16">
                 <div className="flex justify-center md:justify-end -mt-16">
                   <img
                     className="w-20 h-20 object-cover rounded-full border-2 border-[#078739]"

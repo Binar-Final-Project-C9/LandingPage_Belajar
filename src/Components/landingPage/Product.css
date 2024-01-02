@@ -1,6 +1,7 @@
 .container {
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
+  margin-left: 1.5rem;
 }
 .slick-track {
   display: flex;
@@ -27,8 +28,9 @@
   opacity: 0.5;
 }
 .card {
+  position: relative;
+  border: 1px solid #078739;
   border-radius: 5px;
-  padding: 20px;
   padding-bottom: 10px;
   background-color: rgba(7, 135, 57, 0.3);
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
@@ -43,4 +45,12 @@
 .card-body h3 {
   padding-top: 0.8rem;
   text-align: center;
+}
+img {
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .container {
+    margin-left: 0.3rem;
+  }
 }

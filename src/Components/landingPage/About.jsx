@@ -1,13 +1,13 @@
 import React from "react";
 import { BsFillPlayCircleFill } from "react-icons/bs";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-section-container" id="about">
-      <div className="video-box">
+    <div className="lg:flex justify-center items-center gap-16" id="about">
+      <div className="lg:w-1/2">
         <iframe
-          width="560"
-          height="315"
+          className="flex items-center justify-center rounded-md w-full h-96 lg:mt-7"
           src="https://www.youtube.com/embed/rRSK7n4oeew?si=f_wc7RjqChdpkXOf"
           title="YouTube video player"
           frameborder="0"

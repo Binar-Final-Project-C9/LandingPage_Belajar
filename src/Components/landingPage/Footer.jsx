@@ -34,7 +34,7 @@ const Footer = () => {
           <h3>Menu</h3>
           <span>Home</span>
           <span>About</span>
-          <span>Product</span>
+          <span>Course</span>
           <span>Testimonial</span>
         </div>
         <div className="footer-section-columns">

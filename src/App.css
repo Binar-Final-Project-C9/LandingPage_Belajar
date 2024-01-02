@@ -77,12 +77,14 @@ nav {
   right: -170px;
   z-index: -2;
   max-width: 700px;
+  display: block;
 }
 .home-image-section {
   max-width: 600px;
   position: relative;
   flex: 1;
-  left: 40px;
+  left: 45px;
+  display: block;
 }
 .home-text-section {
   flex: 1;
@@ -104,6 +106,7 @@ nav {
   max-width: 500px;
   color: #607274;
   margin: 1.5rem 0rem;
+  display: flex;
 }
 .secondary-button {
   padding: 1rem 2.5rem;
@@ -155,11 +158,6 @@ nav {
   display: flex;
   flex-direction: column;
 }
-.video-box {
-  width: 100%;
-  max-width: 800px;
-  margin-bottom: 2rem;
-}
 .primary-subheading {
   font-weight: 700;
   color: #fe9e0d;
@@ -168,27 +166,6 @@ nav {
 .about-buttons-container {
   margin-top: 2rem;
   display: flex;
-}
-.watch-video-button {
-  margin-left: 2rem;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  border: 2px solid #078739 !important;
-  border-radius: 5rem;
-  font-size: 1.1rem;
-  cursor: pointer;
-  font-weight: 600;
-  color: #484848;
-  transition: transform 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-.watch-video-button svg {
-  font-size: 3rem;
-  margin-right: 1rem;
 }
 .footer-wrapper {
   width: 100%;
@@ -279,20 +256,6 @@ nav {
   align-items: center;
   flex-direction: column;
 }
-.work-section-info {
-  width: 290px;
-  min-height: 350px;
-  background-color: white;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 1rem;
-  color: #505050;
-  margin: 1rem 2rem;
-}
 .font-medium {
   padding: 0;
   margin: 0;
@@ -310,6 +273,16 @@ nav {
   }
 }
 @media (max-width: 800px) {
+  .video-box {
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 270px;
+    right: -5.8rem;
+    border-radius: 10px;
+    margin-top: 200px;
+  }
   .nav-logo-container {
     max-width: 140px;
   }
@@ -319,9 +292,6 @@ nav {
   .navbar-menu-container {
     display: flex;
   }
-  .home-bannerImage-container {
-    max-width: 450px;
-  }
   .home-banner-container,
   .about-section-container {
     flex-direction: column-reverse;
@@ -330,25 +300,38 @@ nav {
   }
   .about-section-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .home-image-section,
-  .about-section-image-container {
-    width: 100%;
-    max-width: 400px;
+  .about-section-text-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home-image-section {
+    align-items: center;
+    justify-content: center;
+    left: 5px;
   }
   .primary-heading {
     text-align: center;
     max-width: 90%;
+    margin-top: 1.5rem;
   }
   .primary-text {
     text-align: center;
     max-width: 80%;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
   }
   .home-text-section,
   .about-section-text-container {
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
   }
   .secondary-button {
     font-size: 1rem;
@@ -356,7 +339,8 @@ nav {
     cursor: pointer;
   }
   .about-section-container {
-    margin-top: 5rem !important;
+    align-items: center;
+    justify-content: center;
   }
   .about-buttons-container {
     justify-content: center;
@@ -376,29 +360,43 @@ nav {
   .about-section-image-container {
     margin-right: 0rem !important;
   }
-  .work-section-wrapper {
-    margin-top: 5rem !important;
-  }
-  .work-section-bottom {
-    margin-top: 1rem !important;
-  }
   .footer-wrapper {
     flex-direction: column;
   }
+  .footer-section-one,
   .footer-section-two {
     flex-direction: column;
     margin-top: 2rem;
   }
+  .footer-logo-container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-right: auto;
+  }
   .footer-section-columns {
     margin: 1rem 0rem;
+    margin-left: 1rem;
+  }
+  .footer-icons {
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
   }
   .App {
     max-width: 95vw;
   }
+  .product-section-wrapper {
+    margin-top: 8rem;
+  }
 }
 @media (max-width: 600px) {
-  .home-bannerImage-container,
-  .about-background-image-container {
-    display: none;
+  .about-section-text-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
   }
 }

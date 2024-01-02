@@ -12,6 +12,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
+import CategoryIcon from "@mui/icons-material/Category";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
     },
     {
       text: "Course",
-      icon: <InfoIcon />,
+      icon: <CategoryIcon />,
     },
     {
       text: "Testimonials",

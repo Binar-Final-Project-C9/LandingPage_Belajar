@@ -24,7 +24,7 @@ function Product() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,

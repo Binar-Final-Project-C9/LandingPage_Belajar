@@ -54,9 +54,9 @@ function Testimonials() {
       <Slider {...settings} className='feat-no-arrows'>
         {testimonials.map((testimonial) => (
           <div key={testimonial.id}>
-            <div className="flex items-center justify-center w-full">
-              <div className="max-w-lg py-4 shadow-xl px-8 bg-white rounded-lg mt-16">
-                <div className="flex justify-center md:justify-end -mt-16">
+            <div className='flex items-center justify-center w-full'>
+              <div className='max-w-lg py-4 shadow-xl px-8 bg-white rounded-lg mt-16 mb-6'>
+                <div className='flex justify-center md:justify-end -mt-16'>
                   <img
                     className='w-20 h-20 object-cover rounded-full border-2 border-[#078739]'
                     src={testimonial.image}

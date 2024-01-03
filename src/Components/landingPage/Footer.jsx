@@ -8,12 +8,12 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer-wrapper">
-      <div className="footer-section-one">
-        <div className="footer-logo-container">
-          <img src={Logo} alt="" />
+    <div className='footer-wrapper'>
+      <div className='footer-section-one'>
+        <div className='footer-logo-container'>
+          <img src={Logo} alt='' />
         </div>
-        <div className="footer-icons">
+        <div className='footer-icons'>
           <FaFacebookF />
           <FaInstagram />
           <BsYoutube />
@@ -21,8 +21,8 @@ const Footer = () => {
           <SiLinkedin />
         </div>
       </div>
-      <div className="footer-section-two">
-        <div className="footer-section-columns">
+      <div className='footer-section-two'>
+        <div className='footer-section-columns'>
           <h3>Course</h3>
           <span>Web Development</span>
           <span>Mobile Development</span>
@@ -30,14 +30,14 @@ const Footer = () => {
           <span>Machine Learning</span>
           <span>UI/UX Design</span>
         </div>
-        <div className="footer-section-columns">
+        <div className='footer-section-columns'>
           <h3>Menu</h3>
           <span>Home</span>
           <span>About</span>
-          <span>Course</span>
+          <span>Product</span>
           <span>Testimonial</span>
         </div>
-        <div className="footer-section-columns">
+        <div className='footer-section-columns'>
           <h3 style={{ marginBottom: "1rem" }}>About Us</h3>
           <span>Contact Us</span>
           <span>Terms & Conditions</span>
